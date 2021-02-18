@@ -13,7 +13,8 @@
     "build": "npm run build:shell && npm run build:mfe1",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "ng build --prod --base-href https://hs950559.github.io/angular-microfrontend/ && ngh --dir=dist"
   },
   "private": true,
   "resolutions": {
